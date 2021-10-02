@@ -62,7 +62,7 @@ $(document).ready(function () {
     }
 
     if (!currentPhotographer.hasClass('onload')) {
-      $.getJSON('/data/detail.json', fillDetails);
+      $.getJSON('/data/details.json', fillDetails);
     }
 
     function fillDetails(data) {
