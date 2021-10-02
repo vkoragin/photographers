@@ -83,7 +83,7 @@ $(document).ready(function () {
         infoHTML +=     '<div class="ico"><img src="images/heart.png" alt=""></div>';
         infoHTML +=     '<div class="counter">' + item["likes"] + '</div>';
         infoHTML +=   '</div>';
-        infoHTML += '</d iv>';
+        infoHTML += '</div>';
 		
         details.find('.pictures').append(infoHTML);
       });
