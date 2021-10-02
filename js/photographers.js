@@ -8,7 +8,7 @@
 */
 
 $(document).ready(function () {
-  $.getJSON('/data/list.json', fillData);
+  $.getJSON('https://vkoragin.github.io/photographers/data/list.json', fillData);
 
   function fillData(data) {
     $.each(data, function (photographer, photographerInfo) {
@@ -62,7 +62,7 @@ $(document).ready(function () {
     }
 
     if (!currentPhotographer.hasClass('onload')) {
-      $.getJSON('/data/details.json', fillDetails);
+      $.getJSON('https://vkoragin.github.io/photographers/data/details.json', fillDetails);
     }
 
     function fillDetails(data) {
