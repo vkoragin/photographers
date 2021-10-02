@@ -1,0 +1,31 @@
+{
+    "specialization": [
+      "consequat",
+      "quis",
+      "labore",
+      "est",
+      "ut"
+    ],
+    "pictures": [
+      {
+        "url": "images/details/1.jpg",
+        "likes": 163
+      },
+      {
+        "url": "images/details/2.jpg",
+        "likes": 170
+      },
+      {
+        "url": "images/details/3.jpg",
+        "likes": 181
+      },
+      {
+        "url": "images/details/4.jpg",
+        "likes": 71
+      },
+      {
+        "url": "images/details/5.jpg",
+        "likes": 200
+      }
+    ]
+  }
